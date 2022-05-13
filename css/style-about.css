@@ -1,0 +1,65 @@
+.all__blocks {
+    height: 100%;
+    display: flex;
+}
+
+.right__container, .left__container {
+    width: 50%;
+    margin: 2%;
+}
+
+.left__container {
+    box-shadow: 5px 5px 35px;
+}
+
+.bottom__container {
+    padding: 2%;
+}
+
+.p__inner {
+    color: #b3b3b3;
+    text-indent: 4%;
+    font-size: calc(0.1em + 1vw);
+    text-align: justify;
+}
+
+.all__blocks h2, .right__container h2, .bottom__container h2, .h__inner h2, .h__inner h3 {
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.add img {
+    box-shadow: 5px 5px 35px;
+}
+
+.leftimg {
+    float: left;
+    /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0;
+    /* Отступы вокруг картинки */
+}
+
+.rightimg {
+    float: right;
+    /* Выравнивание по правому краю  */
+    margin: 7px 0 7px 7px;
+    /* Отступы вокруг картинки */
+}
+
+@media (max-width: 600px) {
+    .left__container{
+        height: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .left__container{
+        height: 50%;
+    }
+}
+
+@media (max-width: 100px) {
+    .left__container{
+        height: 20%;
+    }
+}

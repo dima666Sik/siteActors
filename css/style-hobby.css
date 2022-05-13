@@ -1,0 +1,21 @@
+.video-content{
+    height: 500px;
+}
+
+@media (max-width: 600px) {
+    .video-content{
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .video-content{
+        height: 200px;
+    }
+}
+
+@media (max-width: 100px) {
+    .video-content{
+        height: 50px;
+    }
+}
