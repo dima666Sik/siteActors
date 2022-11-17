@@ -9,4 +9,4 @@
 - Enjoy info about your choose. Maybe you can check interesting video in they biography.
 
 ## Usage
-You can check my work by clicking on this link: https://lazyness.github.io/siteActors/
+You can check my work by clicking on this link: https://dima666sik.github.io/siteActors/
